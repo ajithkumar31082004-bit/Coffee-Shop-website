@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.17 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #76a033;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #8cc63f;
+      }
+
+      .cls-3 {
+        font-family: MongolianBaiti, 'Mongolian Baiti';
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 26.66px;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #0071bc;
+        font-family: Amita-Regular, Amita;
+      }
+
+      .cls-7 {
+        font-size: 44.43px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-4" transform="translate(73.25 76.23)"><tspan x="0" y="0">Find Your Career</tspan></text>
+      <text class="cls-7" transform="translate(68.56 43.91)"><tspan class="cls-3" x="0" y="0">Init</tspan><tspan class="cls-6" x="61.69" y="0">Rabbit</tspan></text>
+    </g>
+    <g>
+      <polygon class="cls-2" points="34 41.57 34 62.29 25.5 56.36 17 50.43 17 29.71 17.01 29.72 25.5 35.64 34 41.57"/>
+      <path class="cls-2" d="M51,74.15v14.7c0,2.54-2.86,4.03-4.95,2.58l-12.05-8.41v-20.73l17,11.86Z"/>
+      <polygon class="cls-1" points="34 29.71 34 50.43 25.5 56.36 17 62.29 17 41.57 17.01 41.56 25.5 35.64 34 29.71"/>
+      <path class="cls-1" d="M0,74.15v14.7c0,2.54,2.86,4.03,4.95,2.58l12.05-8.41v-20.73S0,74.15,0,74.15Z"/>
+      <path class="cls-2" d="M17,50.43v20.73l-6.35-4.44-5.28-3.68C2.19,60.82,.22,57.26,.02,53.42c-.01-.22-.02-.45-.02-.67v-14.18H.01s10.64,7.43,10.64,7.43h.01s6.34,4.43,6.34,4.43Z"/>
+      <path class="cls-1" d="M51,38.57v14.18c0,.22-.01,.45-.02,.67-.2,3.84-2.16,7.4-5.34,9.62l-5.28,3.69-6.36,4.43v-20.73l6.35-4.43,10.65-7.43Z"/>
+      <polygon class="cls-5" points="17 41.59 17 50.43 10.66 46.01 17 41.59"/>
+      <path class="cls-1" d="M17.01,29.72v11.86h-.01s-6.34,4.43-6.34,4.43L.03,53.43c-.01-.22-.02-.45-.02-.67v-14.26c0-3.63,1.78-7.03,4.76-9.11l5.88-4.1h.01s6.34-4.43,6.34-4.43v8.85h.01Z"/>
+      <polygon class="cls-5" points="40.35 46 34 50.43 34 41.57 40.35 46"/>
+      <path class="cls-2" d="M51,38.49v14.26c0,.22-.01,.45-.02,.67l-10.63-7.42-6.35-4.43V20.84l6.36,4.43,5.89,4.11c2.98,2.08,4.75,5.48,4.75,9.11Z"/>
+      <path class="cls-2" d="M17,8.98V29.71l-6.34-4.43L0,17.85V3.15C0,.6,2.86-.89,4.95,.57l12.05,8.41Z"/>
+      <path class="cls-1" d="M34,8.98V29.71s17-11.86,17-11.86V3.15c0-2.54-2.86-4.03-4.95-2.58l-12.05,8.41Z"/>
+    </g>
+  </g>
+</svg>
