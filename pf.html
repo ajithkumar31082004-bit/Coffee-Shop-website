@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Coffee in Shop</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: #2d1f1f;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 1rem;
+      background-color: #3b2b2b;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #deab5f;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #e2e2e2;
+    }
+
+    .new-coffee-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 3rem 2rem;
+      gap: 3rem;
+    }
+
+    .coffee-card {
+      background: #4e3d3d;
+      border-radius: 10px;
+      width: 300px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .coffee-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .coffee-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .coffee-card h2 {
+      margin-top: 15px;
+      color: #deab5f;
+      font-size: 1.5rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .coffee-card p {
+      margin-top: 10px;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    .coffee-card button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #deab5f;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>New Coffee in Shop</h1>
+    <p>Discover our latest brews, crafted to perfection for every coffee lover.</p>
+  </header>
+
+  <section class="new-coffee-section">
+    <div class="coffee-card">
+      <img src="Caramel Macchiato.jpg" alt="Caramel Latte">
+      <h2>Caramel Delight Latte</h2>
+      <p>
+        A smooth blend of espresso, steamed milk, and rich caramel flavor topped with whipped cream.
+      </p>
+      <button><a href="home1.html">Try Now</a></button>
+    </div>
+
+    <div class="coffee-card">
+      <img src="HazelnutMocha.jpg" alt="Hazelnut Espresso">
+      <h2>Hazelnut Espresso</h2>
+      <p>
+        A bold and nutty espresso with a touch of creamy hazelnut. Perfect for chilly mornings.
+      </p>
+      <button><a href="home1.html">Order Today</a></button>
+    </div>
+
+    <div class="coffee-card">
+      <img src="IcedLatte.jpg" alt="Iced Mocha">
+      <h2>Iced Mocha Bliss</h2>
+      <p>
+        A refreshing iced coffee with a chocolatey twist. Served chilled for a summer boost.
+      </p>
+      <button><a href="home1.html">Grab One</a></button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Coffee Shop. All rights reserved.
+  </footer>
+
+</body>
+</html>

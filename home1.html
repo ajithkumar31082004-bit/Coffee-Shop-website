@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Coffee Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+      color: #4b2e2e;
+    }
+    header {
+      background-color: #6f4e37;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .menu {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .menu-item {
+      display: inline-block;
+      width: 300px;
+      margin: 20px;
+      text-align: center;
+      background-color: #fdf4ea;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .menu-item img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .price {
+      font-weight: bold;
+      color: #8b5e3c;
+      margin: 8px 0;
+    }
+    .order-controls {
+      margin-top: 10px;
+    }
+    .order-controls input[type="number"] {
+      width: 60px;
+      padding: 5px;
+      font-size: 14px;
+      margin-right: 10px;
+    }
+    .order-controls button {
+      background-color: #6f4e37;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .order-controls button:hover {
+      background-color: #593a27;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Coffee Menu</h1>
+    <p>Explore our wide range of handcrafted coffees</p>
+  </header>
+
+  <section class="menu">
+    <!-- Coffee items -->
+    <div class="menu-item">
+      <img src="Espresso.jpg" alt="Espresso">
+      <div><strong>Espresso</strong><br>Bold and rich, the perfect pick-me-up.</div>
+      <div class="price">₹100</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="Cappuccino.jpg" alt="Cappuccino">
+      <div><strong>Cappuccino</strong><br>Creamy espresso with frothy milk.</div>
+      <div class="price">₹120</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="Latte.jpg" alt="Latte">
+      <div><strong>Latte</strong><br>Milky and smooth with a gentle coffee base.</div>
+      <div class="price">₹130</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="Mocha.jpg" alt="Mocha">
+      <div><strong>Mocha</strong><br>Espresso with rich chocolate.</div>
+      <div class="price">₹140</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="Americano.jpg" alt="Americano">
+      <div><strong>Americano</strong><br>Classic black coffee with hot water.</div>
+      <div class="price">₹110</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="Cold Brew.jpg" alt="Cold Brew">
+      <div><strong>Cold Brew</strong><br>Chilled coffee steeped for hours.</div>
+      <div class="price">₹150</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="Caramel Macchiato.jpg" alt="Caramel Macchiato">
+      <div><strong>Caramel Macchiato</strong><br>Espresso with frothy milk and caramel.</div>
+      <div class="price">₹160</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="Vanilla Latte.jpg" alt="Vanilla Latte">
+      <div><strong>Vanilla Latte</strong><br>Coffee with a sweet vanilla twist.</div>
+      <div class="price">₹140</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="FlatWhite.jpg" alt="Flat White">
+      <div><strong>Flat White</strong><br>Smooth texture, stronger espresso taste.</div>
+      <div class="price">₹130</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="IrishCoffee.jpg" alt="Irish Coffee">
+      <div><strong>Irish Coffee</strong><br>Rich coffee with a hint of Irish cream.</div>
+      <div class="price">₹180</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="Affogato.jpg" alt="Affogato">
+      <div><strong>Affogato</strong><br>Espresso poured over creamy vanilla ice cream.</div>
+      <div class="price">₹170</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="IcedLatte.jpg" alt="Iced Latte">
+      <div><strong>Iced Latte</strong><br>Cool and refreshing espresso with chilled milk.</div>
+      <div class="price">₹140</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="HazelnutMocha.jpg" alt="Hazelnut Mocha">
+      <div><strong>Hazelnut Mocha</strong><br>Chocolate and hazelnut blended with espresso.</div>
+      <div class="price">₹160</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="TurkishCoffee.jpg" alt="Turkish Coffee">
+      <div><strong>Turkish Coffee</strong><br>Strong, unfiltered coffee with a rich tradition.</div>
+      <div class="price">₹150</div>
+      <div class="order-controls">
+        <input type="number" min="0" placeholder="Qty">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+  <section style="text-align: center; padding: 30px; background-color: #fff3e6;">
+    <h2>🛒 Order Summary</h2>
+    <p><strong>Total Items:</strong> <span id="totalItems">0</span></p>
+    <p><strong>Total Cost:</strong> ₹<span id="totalCost">0</span></p>
+    <button onclick="submitOrder()" style="padding: 10px 20px; background-color: #6f4e37; color: white; border: none; border-radius: 5px; cursor: pointer;">Submit Order</button>
+  </section>
+
+  <script>
+    const addButtons = document.querySelectorAll('.menu-item button');
+    const itemInputs = document.querySelectorAll('.menu-item input[type="number"]');
+    const prices = document.querySelectorAll('.menu-item .price');
+
+    let totalItems = 0;
+    let totalCost = 0;
+
+    addButtons.forEach((button, index) => {
+      button.addEventListener('click', () => {
+        const qty = parseInt(itemInputs[index].value);
+        if (!qty || qty < 1) {
+          alert("Please enter a valid quantity.");
+          return;
+        }
+        const price = parseInt(prices[index].textContent.replace('₹',''));
+        totalItems += qty;
+        totalCost += qty * price;
+
+        // Update UI
+        document.getElementById('totalItems').textContent = totalItems;
+        document.getElementById('totalCost').textContent = totalCost;
+
+        // Optional: Clear the input
+        itemInputs[index].value = '';
+      });
+    });
+
+    function submitOrder() {
+      if (totalItems === 0) {
+        alert("No items in your order!");
+        return;
+      }
+      alert(`✅ Order Submitted!\nItems: ${totalItems}\nTotal Cost: ₹${totalCost}`);
+      // You could redirect or send this data to a backend here
+
+      // Reset totals
+      totalItems = 0;
+      totalCost = 0;
+      document.getElementById('totalItems').textContent = '0';
+      document.getElementById('totalCost').textContent = '0';
+    }
+  </script>
+
+</body>
+</html>

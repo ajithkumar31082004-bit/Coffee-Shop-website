@@ -1,0 +1,288 @@
+ .container{
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media (max-width: 1536px) {
+    .container{
+        max-width: 1280px;
+    }
+} 
+
+@media (max-width: 1280px) {
+    .container{
+        max-width: 1024px;
+    }
+} 
+
+@media (max-width: 1024px) {
+    .container{
+        max-width: 768px;
+    }
+
+
+} 
+
+@media (max-width: 640px) {
+    .container{
+        max-width: 475px;
+    }
+} 
+
+
+@media (max-width: 475px) {
+    .container{
+        max-width: 100%;
+    }
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+/* ============== NAVIGATION BAR =================== */
+
+.navbar {
+    display: block;
+    top: 10px;
+    background-color:blueviolet;
+    box-shadow: 5px 3px 50px rgb(13, 95, 177);
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flexbox;
+    width: 100px;
+    padding: 10px;
+    margin-left: 30px;
+
+}
+
+.menu {
+    display: flexbox;
+    background: none;
+    padding: 15px;
+}
+
+ul {
+    display: inline-flex;
+}
+
+ul li {
+    color: rgb(140, 6, 6);
+    font-size: 18px;
+    padding: 15px;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(12, 17, 3);
+}
+
+/* =========== BODY SECTION ================ */
+
+body {
+    background-image:url("ima2.jpg");
+    width:auto;
+    height:auto;
+    background-repeat:repeat;
+    
+}
+
+marquee {
+    display: block;
+    color: rgb(199, 4, 4);
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+marquee a {
+    font-weight: bold;
+    text-decoration: none;
+    color: lightgreen;
+}
+
+/* ============== HERO SECTION =============== */
+
+.hero {
+    display: block;
+    background: linear-gradient(rgb(49, 1, 1),rgba(4, 66, 113, 0.5));
+    width: 100%;
+    height: 30vh;
+}
+
+.hero-heading {
+    color: rgb(108, 1, 1);
+    padding: 30px;
+    font-size: 3rem;
+}
+
+.IR-large {
+    background: linear-gradient(90deg,rgb(85, 0, 0),rgb(122, 1, 1));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-desc {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 30px;
+    width: 70%;
+}
+
+/* ================ CARDS ============== */
+
+.why-us {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.card-container{
+    display: flex;
+    height: 250px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(192, 70, 0);
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border: 5px solid rgb(255, 255, 255,0.5);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card h3 {
+    color: rgb(67, 195, 12);
+    height: 30%;
+    width: 100%;
+    padding-bottom: 0px;
+    align-content: center;
+}
+
+.card p {
+    color: white;
+    padding: 10px;
+    border-top: 1px solid white;
+    
+}
+
+/* =========================fadetext====================== */
+ .fadeText {
+                font-size: 24px;
+                color: rgb(197, 189, 43);
+                opacity: 0;
+                transition: opacity 2s ease-in;
+            }
+
+
+/* =============== PARAGRAPH FILLER ================ */
+
+.para {
+    text-indent: 2rem;
+    color: white;
+    line-height: 1.5;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.para1 {
+    text-indent: 2rem;
+    color: rgb(61, 137, 110);
+    line-height: 1.5;
+    margin: 20px;
+    font-size: 1.5rem;
+    
+}
+
+.para2 {
+    text-indent: 2rem;
+    color: rgb(123, 71, 151);
+    line-height: 1.5;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.para3 {
+    text-indent: 2rem;
+    color: rgb(167, 129, 40);
+    line-height: 1.5;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+/* Define the .highlight class in your CSS */
+.highlight {
+    background-color: rgb(82, 135, 124);
+    font-weight: bold;
+}
+
+
+/* =============== FOOTER ==================== */
+
+.footer {
+    display: block;
+    position:static;
+    bottom: 0px;
+    width: 100%;
+    height:40%;
+    background-color: rgb(42, 42, 42);
+    justify-content: space-between;
+}
+
+#About-Us {
+    padding-top: 10px;
+}
+
+#About-Us h2{
+    color: White;
+    margin: 10px;
+}
+
+.footer-container {
+    display: flex;
+
+}
+.coln-1 {
+    display: flexbox;
+    width: 300px;
+    padding: 0px 20px;
+    color: greenyellow
+}
+
+.coln-1 h3 {
+    color: White;
+    margin: 10px 0px;
+}
+
+.contact {
+    display: flex;
+}
+
+.coln-2 {
+    display: flexbox;
+    padding: 0px 100px;
+}
+
+.coln-2 h4 {
+    margin-bottom: 10px;
+    color: White;
+}
